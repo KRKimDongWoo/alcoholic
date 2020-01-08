@@ -1,0 +1,48 @@
+.setting {
+	margin: 32px 0;
+}
+
+.setting-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.setting-header h1 {
+	font-size: 32px;
+	margin: 0 16px;
+}
+
+.setting-header input {
+	font-size: 32px;
+	width: 320px;
+}
+
+.setting-body-explanation {
+	margin: 16px 0;
+}
+
+.setting-body-explanation p {
+	font-size: 24px;
+	margin: 4px 0;
+	color: #ee8888;
+}
+
+.setting-body-select {
+	display: flex;
+	border-top: 1px solid gray
+}
+
+.setting-button {
+	background: #dd4444;
+	border: none;
+	border-radius: 4px;
+
+	width: 120px;
+	height: 48px;
+
+	color: white;
+	font-size: 16px;
+
+	margin: 16px 0;
+}

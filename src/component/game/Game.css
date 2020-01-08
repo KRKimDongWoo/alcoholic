@@ -1,0 +1,43 @@
+.game {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.game-header h1 {
+	font-size: calc(16px + 2vmin);
+}
+
+.game-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.game-sentence {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game-text {
+	width: 240px;
+	padding: 4px;
+	font-size: 48px;
+}
+
+.game-button {
+	background: #dd4444;
+	border: none;
+	border-radius: 4px;
+
+	width: 120px;
+	height: 48px;
+
+	color: white;
+	font-size: 16px;
+
+	margin: 16px 0;
+}

@@ -1,0 +1,55 @@
+.input-list-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 320px;
+	background: white;
+	overflow: hidden;
+	border-radius: 8px;
+	border: 2px solid gray;
+}
+
+.input-list-card h3 {
+	color: black;
+	margin: 8px 0;
+
+}
+
+.input-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 100%;
+	padding: 4px 0 0 0;
+}
+
+.input-line {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	border-top: 1px solid gray;
+	padding: 4px;
+}
+
+.input-line input {
+	font-size: 16px;
+}
+
+.input-button {
+	background: none;
+
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	overflow: hidden;
+
+	flex-shrink: 0;
+
+	font-size: 24px;
+	width: 32px;
+	height: 32px;
+	margin: 2px;
+}

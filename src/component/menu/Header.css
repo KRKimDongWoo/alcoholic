@@ -1,0 +1,30 @@
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #141624;
+}
+
+.spacer {
+	width: 50vh;
+	flex-grow: 1;
+	
+	display: flex;
+}
+
+.header-title {
+	flex-shrink: 0;
+}
+
+.header-title h1 {
+	margin: 16px 0;
+	font-size: 32px;
+}
+
+.header-link {
+	color: gray;
+	text-decoration: none;
+	margin-right: 32px;
+
+	font-size: 24px;
+}

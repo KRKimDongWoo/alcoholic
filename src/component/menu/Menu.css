@@ -1,0 +1,23 @@
+.quote {
+	color: gray;
+	font-size: 24px;
+}
+.main_menu-header h1 {
+	font-size: 48px;
+}
+.main_menu_select {
+	text-align: left;
+}
+
+.main_menu_select {
+	list-style-type: disc;
+}
+.main_menu_select-item :hover {
+	background: gray;
+}
+
+.main_menu_select-link {
+	color: white;
+	text-decoration: none;
+}
+
