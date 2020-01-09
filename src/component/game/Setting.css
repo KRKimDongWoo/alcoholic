@@ -30,7 +30,10 @@
 
 .setting-body-select {
 	display: flex;
-	border-top: 1px solid gray
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: center;
 }
 
 .setting-button {

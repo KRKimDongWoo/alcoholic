@@ -20,12 +20,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	flex-wrap: wrap;
+
+	border-bottom: 2px solid gray;
 }
 
 .game-text {
 	width: 240px;
 	padding: 4px;
-	font-size: 48px;
+	font-size: calc(16px + 4vmin);
+	font-weight: 600;
 }
 
 .game-button {
