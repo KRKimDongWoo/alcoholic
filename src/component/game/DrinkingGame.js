@@ -66,7 +66,8 @@ class DrinkingGame extends Component {
 					onClick={(e) => this.setState({counter: 0})}>
 					돌리기
 				</button>
-				<button className="game-button" 
+				<button className="game-button"
+					onClick={this.props.onSetting}
 					style={{background: '#3333ff'}}>
 					수정하기
 				</button>
