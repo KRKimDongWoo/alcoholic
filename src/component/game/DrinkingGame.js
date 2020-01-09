@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import DrinkingSetting from './DrinkingSetting'
 import './Game.css'
 
 class DrinkingGame extends Component {
