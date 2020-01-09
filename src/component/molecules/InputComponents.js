@@ -71,7 +71,7 @@ export class InputListCard extends Component {
 				<h3>
 					{this.props.title}
 				</h3>
-				<InputList onChange={(state) => {console.log('debug', state); this.props.onChange(state)}} value={this.props.value}/>
+				<InputList onChange={(state) => this.props.onChange(state)} value={this.props.value}/>
 			</div>
 		)
 	}
